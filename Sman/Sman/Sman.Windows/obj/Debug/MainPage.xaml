@@ -22,7 +22,8 @@
                 </LinearGradientBrush>
             </Grid.Background>
         </Grid>
-        <Button x:Name="collect" Content="收藏" HorizontalAlignment="Left" Margin="66,474,0,0" VerticalAlignment="Top" Height="74" Width="162" FontSize="24" Background="#FF608F1B" Click="collect_Click"/>
+        <Button x:ConnectionId='1' x:Name="collect" Content="收藏" HorizontalAlignment="Left" Margin="66,474,0,0" VerticalAlignment="Top" Height="74" Width="162" FontSize="24" Background="#FF608F1B"                      />
 
     </Grid>
 </Page>
+

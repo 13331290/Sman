@@ -13,23 +13,23 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// “空白页”项模板在 http://go.microsoft.com/fwlink/?LinkId=234238 上提供
+// “空白页”项模板在 http://go.microsoft.com/fwlink/?LinkId=234238 上有介绍
 
 namespace Sman
 {
     /// <summary>
-    /// 可独立使用或用于导航至 Frame 内部的空白页。
+    /// 可用于自身或导航至 Frame 内部的空白页。
     /// </summary>
-    public sealed partial class MainPage : Page
+    public sealed partial class CollectPage : Page
     {
-        public MainPage()
+        public CollectPage()
         {
             this.InitializeComponent();
         }
 
-        private void collect_Click(object sender, RoutedEventArgs e)
+        private void back_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(CollectPage));
+            this.Frame.Navigate(typeof(MainPage));
         }
     }
 }
