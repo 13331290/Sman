@@ -20,17 +20,21 @@
     <AppXManifest Include="C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-12T14:20:01.856</Modified>
+      <Modified>2015-05-12T14:45:10.129</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\bin\Debug\Sman.Windows.exe">
       <PackagePath>Sman.Windows.exe</PackagePath>
-      <Modified>2015-05-12T14:29:40.990</Modified>
+      <Modified>2015-05-12T14:53:46.941</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\Assets\collect_bg.jpg">
       <PackagePath>Assets\collect_bg.jpg</PackagePath>
       <Modified>2015-05-12T14:03:35.678</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\Assets\weather.jpg">
+      <PackagePath>Assets\weather.jpg</PackagePath>
+      <Modified>2015-05-12T14:45:03.391</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -58,19 +62,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\bin\Debug\CollectPage.xbf">
       <PackagePath>CollectPage.xbf</PackagePath>
-      <Modified>2015-05-12T14:29:40.778</Modified>
+      <Modified>2015-05-12T14:53:46.748</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-05-12T14:29:40.778</Modified>
+      <Modified>2015-05-12T14:53:46.748</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\bin\Debug\Sman.Windows.xr.xml">
       <PackagePath>Sman.Windows.xr.xml</PackagePath>
-      <Modified>2015-05-12T14:29:40.764</Modified>
+      <Modified>2015-05-12T14:51:23.709</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-05-12T14:20:01.566</Modified>
+      <Modified>2015-05-12T14:45:09.895</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

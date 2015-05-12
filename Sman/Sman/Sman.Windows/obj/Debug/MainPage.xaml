@@ -7,19 +7,16 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Grid HorizontalAlignment="Left" Height="310" Margin="452,294,0,0" VerticalAlignment="Top" Width="410">
-            <TextBox x:Name="picture" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="图片" VerticalAlignment="Top" Height="146" Width="187" FontSize="48" IsReadOnly="True"/>
-            <TextBox x:Name="music" HorizontalAlignment="Left" Margin="202,0,0,0" TextWrapping="Wrap" Text="音乐" VerticalAlignment="Top" Height="146" Width="198" FontSize="48" IsReadOnly="True"/>
-            <TextBox x:Name="video" HorizontalAlignment="Left" Margin="10,151,0,0" TextWrapping="Wrap" Text="视频" VerticalAlignment="Top" Height="149" Width="187" FontSize="48" IsReadOnly="True"/>
-            <TextBox x:Name="book" HorizontalAlignment="Left" Margin="202,151,0,0" TextWrapping="Wrap" Text="电子书" VerticalAlignment="Top" Height="149" Width="198" FontSize="48" IsReadOnly="True"/>
+    <Grid Background="#FF2B5091">
+        <Grid HorizontalAlignment="Left" Height="310" Margin="374,294,0,0" VerticalAlignment="Top" Width="488">
+            <Button x:Name="picture" HorizontalAlignment="Left" Margin="10,0,0,0"  Content="图片" VerticalAlignment="Top" Height="146" Width="225" FontSize="48"  Padding="10,20,10,5" Background="#FFAC199F" />
+            <Button x:Name="music" HorizontalAlignment="Left" Margin="240,0,0,0"  Content="音乐" VerticalAlignment="Top" Height="146" Width="238" FontSize="48" Padding="10,20,10,5" Background="#FFFF8B00" />
+            <Button x:Name="video" HorizontalAlignment="Left" Margin="10,151,0,0" Content="视频" VerticalAlignment="Top" Height="144" Width="225" FontSize="48"  Background="#FFCDCD24"  Padding="10,20,10,5"/>
+            <Button x:Name="book" HorizontalAlignment="Left" Margin="240,151,0,0"  Content="电子书" VerticalAlignment="Top" Height="144" Width="238" FontSize="48" Background="#FF5DB84F"  Padding="10,20,10,5"/>
         </Grid>
         <Grid x:Name="weather" HorizontalAlignment="Left" Height="176" Margin="10,10,0,0" VerticalAlignment="Top" Width="1346">
             <Grid.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black" Offset="0"/>
-                    <GradientStop Color="White" Offset="1"/>
-                </LinearGradientBrush>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/weather.jpg"/>
             </Grid.Background>
         </Grid>
         <Button x:ConnectionId='1' x:Name="collect" Content="收藏" HorizontalAlignment="Left" Margin="66,474,0,0" VerticalAlignment="Top" Height="74" Width="162" FontSize="24" Background="#FF608F1B"                      />

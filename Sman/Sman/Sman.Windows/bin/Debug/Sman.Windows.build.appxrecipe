@@ -22,6 +22,9 @@
     <AppxPackagedFile Include="C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\Assets\collect_bg.jpg">
       <PackagePath>Assets\collect_bg.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\Assets\weather.jpg">
+      <PackagePath>Assets\weather.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
