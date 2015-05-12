@@ -7,12 +7,45 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:Name="picture" Content="音乐" HorizontalAlignment="Left" Margin="425,225,0,0" VerticalAlignment="Top" Height="49" Width="94"/>
-        <Button x:Name="music" Content="图片" HorizontalAlignment="Left" Margin="204,225,0,0" VerticalAlignment="Top" Height="49" Width="94"/>
-        <Button x:Name="video" Content="视频" HorizontalAlignment="Left" Margin="677,225,0,0" VerticalAlignment="Top" Height="49" Width="92"/>
-        <Button x:Name="book" Content="电子书" HorizontalAlignment="Left" Margin="909,225,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.225,-0.289" Height="49" Width="89"/>
-        <Button x:Name="back" HorizontalAlignment="Left" Margin="41,122,0,0" VerticalAlignment="Top" Height="54" Width="118" Content="返回" FontSize="18" Background="#FF3F441E" Click="back_Click"/>
+    <Page.TopAppBar>
+        <AppBar>
+            <StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <AppBarButton Click="back_Click" HorizontalAlignment="Center" Icon="Back" VerticalAlignment="Center">
+                        <AppBarButton.Background>
+                            <ImageBrush Stretch="Fill"/>
+                        </AppBarButton.Background>
+                    </AppBarButton>
+                </StackPanel>
+            </StackPanel>
+        </AppBar>
+    </Page.TopAppBar>
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/collect_bg.jpg"/>
+        </Grid.Background>
+        <Button x:Name="picture" Content="音乐" HorizontalAlignment="Left" Margin="545,240,0,0" VerticalAlignment="Top" Height="109" Width="229" FontSize="24">
+            <Button.Background>
+                <SolidColorBrush Color="#FF250F0F" Opacity="0.4"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="music" Content="图片" HorizontalAlignment="Left" Margin="545,108,0,0" VerticalAlignment="Top" Height="117" Width="229" FontSize="24">
+            <Button.Background>
+                <SolidColorBrush Color="#FF250F0F" Opacity="0.4"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="video" Content="视频" HorizontalAlignment="Left" Margin="545,367,0,0" VerticalAlignment="Top" Height="99" Width="229" FontSize="24">
+            <Button.Background>
+                <SolidColorBrush Color="#FF250F0F" Opacity="0.4"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="book" Content="电子书" HorizontalAlignment="Left" Margin="545,486,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.225,-0.289" Height="105" Width="229" FontSize="24">
+            <Button.Background>
+                <SolidColorBrush Color="#FF250F0F" Opacity="0.4"/>
+            </Button.Background>
+        </Button>
+        <TextBlock HorizontalAlignment="Left" Margin="223,152,0,0" TextWrapping="Wrap" Text="想要收藏什么呢" VerticalAlignment="Top" Height="70" Width="197" FontSize="22"/>
 
 
     </Grid>
