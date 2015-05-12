@@ -109,6 +109,9 @@
     <Compile Include="CollectPage.xaml.cs">
       <DependentUpon>CollectPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CollectReasonPage.xaml.cs">
+      <DependentUpon>CollectReasonPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -130,6 +133,10 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="CollectPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CollectReasonPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
