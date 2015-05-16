@@ -12,7 +12,7 @@
             <Button x:Name="picture" HorizontalAlignment="Left" Margin="10,0,0,0"  Content="图片" VerticalAlignment="Top" Height="146" Width="225" FontSize="48"  Padding="10,20,10,5" Background="#FFAC199F" />
             <Button x:Name="music" HorizontalAlignment="Left" Margin="240,0,0,0"  Content="音乐" VerticalAlignment="Top" Height="146" Width="238" FontSize="48" Padding="10,20,10,5" Background="#FFFF8B00" />
             <Button x:Name="video" HorizontalAlignment="Left" Margin="10,151,0,0" Content="视频" VerticalAlignment="Top" Height="144" Width="225" FontSize="48"  Background="#FFCDCD24"  Padding="10,20,10,5"/>
-            <Button x:Name="book" HorizontalAlignment="Left" Margin="240,151,0,0"  Content="电子书" VerticalAlignment="Top" Height="144" Width="238" FontSize="48" Background="#FF5DB84F"  Padding="10,20,10,5"/>
+            <Button x:Name="book" HorizontalAlignment="Left" Margin="240,151,0,0"  Content="电子书" VerticalAlignment="Top" Height="144" Width="238" FontSize="48" Background="#FF5DB84F"  Padding="10,20,10,5" Click="book_Click"/>
         </Grid>
         <Grid x:Name="weather" HorizontalAlignment="Left" Height="176" Margin="10,10,0,0" VerticalAlignment="Top" Width="1346">
             <Grid.Background>
