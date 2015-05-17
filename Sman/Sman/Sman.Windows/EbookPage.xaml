@@ -6,18 +6,18 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" FontSize="29.333">
-  
-	<Grid>
-		<Grid.Background>
-			<ImageBrush Stretch="Fill" ImageSource="Assets/background.jpg"/>
-		</Grid.Background>
-		<GridView x:Name="MyBook" HorizontalAlignment="Left" Height="335" VerticalAlignment="Top" Width="1070" Margin="145,225,0,0">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/background.jpg"/>
+        </Grid.Background>
+        <GridView x:Name="MyBook" HorizontalAlignment="Left" Height="335" VerticalAlignment="Top" Width="1070" Margin="145,225,0,0">
             <GridView.ItemTemplate>
                 <DataTemplate>
                     <Grid  Margin="0" Height="335" Width="270">
-                    	<Grid.Background>
-                    		<ImageBrush Stretch="Fill" ImageSource="{Binding src}"/>
-                    	</Grid.Background>
+                        <Grid.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="{Binding src}"/>
+                        </Grid.Background>
                         <Grid HorizontalAlignment="Left" Height="110" Margin="0,225,0,0" VerticalAlignment="Top" Width="270">
                             <Grid.Background>
                                 <SolidColorBrush Color="Black" Opacity="0.5"/>
@@ -26,8 +26,9 @@
                         </Grid>
                     </Grid>
                 </DataTemplate>
-			</GridView.ItemTemplate>
-		</GridView>
-		<Button Content="阅读" HorizontalAlignment="Left" Height="95" Margin="495,610,0,0" VerticalAlignment="Top" Width="340" Background="#FFC13333" BorderBrush="{x:Null}" Foreground="#FF0AAC19" FontSize="48"/>
-	</Grid>
+            </GridView.ItemTemplate>
+        </GridView>
+        <Button Content="阅读" HorizontalAlignment="Left" Height="95" Margin="495,610,0,0" VerticalAlignment="Top" Width="340" Background="#FFC13333" BorderBrush="{x:Null}" Foreground="#FF0AAC19" FontSize="48"/>
+        <Button Content="返回" HorizontalAlignment="Left" Height="70" Margin="1120,60,0,0" VerticalAlignment="Top" Width="160" FontSize="29.333" Background="#FF63A601" BorderBrush="#FF726262" Foreground="#FF8D3737" Click="Button_Click"/>
+    </Grid>
 </Page>

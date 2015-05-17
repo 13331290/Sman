@@ -7,8 +7,8 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>d1ad9245-88e6-4165-b997-29bb6e489377</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\liaolushen\Desktop\github\Sman\Sman\Sman\Sman\Sman.Windows\obj\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>029E7C6DE6D661F7349D44A4B3CC58E1DBD7DDD7FB371FEF4773723B342AB050</RegisteredManifestChecksum>
+    <IntermediateOutputPath>C:\Users\liaolushen\Desktop\Sman\Sman\Sman\Sman.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>DE18ADB42E475576C949F141F2BCB89A53029AA446688E625F36FA60DC6ED386</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>d1ad9245-88e6-4165-b997-29bb6e489377_1.0.0.0_neutral__75cr2b68sm664</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>d1ad9245-88e6-4165-b997-29bb6e489377_75cr2b68sm664!App</RegisteredUserModeAppID>
     <RegisteredPackageID>d1ad9245-88e6-4165-b997-29bb6e489377</RegisteredPackageID>
@@ -17,80 +17,88 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\liaolushen\Desktop\github\Sman\Sman\Sman\Sman\Sman.Windows\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\liaolushen\Desktop\Sman\Sman\Sman\Sman.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-17T05:15:57.878</Modified>
+      <Modified>2015-05-17T05:29:22.683</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\github\Sman\Sman\Sman\Sman\Sman.Windows\bin\Debug\Sman.Windows.exe">
+    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\Sman\Sman\Sman\Sman.Windows\bin\Debug\Sman.Windows.exe">
       <PackagePath>Sman.Windows.exe</PackagePath>
-      <Modified>2015-05-17T05:15:57.418</Modified>
+      <Modified>2015-05-17T05:29:22.102</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\github\Sman\Sman\Sman\Sman\Sman.Windows\Assets\background.jpg">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2014-04-29T06:23:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2014-04-29T06:23:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\Sman\Sman\Sman\Sman.Windows\Assets\background.jpg">
       <PackagePath>Assets\background.jpg</PackagePath>
       <Modified>2015-05-17T05:15:53.587</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\github\Sman\Sman\Sman\Sman\Sman.Windows\Assets\book.jpg">
+    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\Sman\Sman\Sman\Sman.Windows\Assets\book.jpg">
       <PackagePath>Assets\book.jpg</PackagePath>
       <Modified>2015-05-17T05:15:53.593</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\github\Sman\Sman\Sman\Sman\Sman.Windows\Assets\collect_bg.jpg">
+    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\Sman\Sman\Sman\Sman.Windows\Assets\collect_bg.jpg">
       <PackagePath>Assets\collect_bg.jpg</PackagePath>
       <Modified>2015-05-17T05:04:36.671</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\github\Sman\Sman\Sman\Sman\Sman.Windows\Assets\weather.jpg">
+    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\Sman\Sman\Sman\Sman.Windows\Assets\weather.jpg">
       <PackagePath>Assets\weather.jpg</PackagePath>
       <Modified>2015-05-17T05:04:36.674</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\github\Sman\Sman\Sman\Sman\Sman.Windows\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\Sman\Sman\Sman\Sman.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-05-17T05:04:36.636</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\github\Sman\Sman\Sman\Sman\Sman.Windows\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\Sman\Sman\Sman\Sman.Windows\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-05-17T05:04:36.637</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\github\Sman\Sman\Sman\Sman\Sman.Windows\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\Sman\Sman\Sman\Sman.Windows\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-05-17T05:04:36.639</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\github\Sman\Sman\Sman\Sman\Sman.Windows\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\Sman\Sman\Sman\Sman.Windows\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-05-17T05:04:36.640</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\github\Sman\Sman\Sman\Sman\Sman.Windows\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\Sman\Sman\Sman\Sman.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2015-05-17T05:09:28.731</Modified>
+      <Modified>2015-05-17T05:22:37.822</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\github\Sman\Sman\Sman\Sman\Sman.Windows\bin\Debug\CollectPage.xbf">
+    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\Sman\Sman\Sman\Sman.Windows\bin\Debug\CollectPage.xbf">
       <PackagePath>CollectPage.xbf</PackagePath>
-      <Modified>2015-05-17T05:09:28.731</Modified>
+      <Modified>2015-05-17T05:22:37.822</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\github\Sman\Sman\Sman\Sman\Sman.Windows\bin\Debug\CollectReasonPage.xbf">
+    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\Sman\Sman\Sman\Sman.Windows\bin\Debug\CollectReasonPage.xbf">
       <PackagePath>CollectReasonPage.xbf</PackagePath>
-      <Modified>2015-05-17T05:09:28.731</Modified>
+      <Modified>2015-05-17T05:22:37.822</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\github\Sman\Sman\Sman\Sman\Sman.Windows\bin\Debug\EbookPage.xbf">
+    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\Sman\Sman\Sman\Sman.Windows\bin\Debug\EbookPage.xbf">
       <PackagePath>EbookPage.xbf</PackagePath>
-      <Modified>2015-05-17T05:15:57.085</Modified>
+      <Modified>2015-05-17T05:29:21.928</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\github\Sman\Sman\Sman\Sman\Sman.Windows\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\Sman\Sman\Sman\Sman.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-05-17T05:15:57.086</Modified>
+      <Modified>2015-05-17T05:22:37.822</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\github\Sman\Sman\Sman\Sman\Sman.Windows\bin\Debug\Sman.Windows.xr.xml">
+    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\Sman\Sman\Sman\Sman.Windows\bin\Debug\Sman.Windows.xr.xml">
       <PackagePath>Sman.Windows.xr.xml</PackagePath>
       <Modified>2015-05-17T05:13:37.274</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\github\Sman\Sman\Sman\Sman\Sman.Windows\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\liaolushen\Desktop\Sman\Sman\Sman\Sman.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-05-17T05:15:57.759</Modified>
+      <Modified>2015-05-17T05:29:22.518</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
