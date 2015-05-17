@@ -25,22 +25,22 @@
         <Grid.Background>
             <ImageBrush Stretch="Fill" ImageSource="Assets/collect_bg.jpg"/>
         </Grid.Background>
-        <Button x:Name="picture" Content="音乐" HorizontalAlignment="Left" Margin="545,240,0,0" VerticalAlignment="Top" Height="109" Width="229" FontSize="24">
+        <Button x:Name="picture" Content="图片" HorizontalAlignment="Left" Margin="545,240,0,0" VerticalAlignment="Top" Height="109" Width="229" FontSize="24" Click="picture_Click">
             <Button.Background>
                 <SolidColorBrush Color="#FF250F0F" Opacity="0.4"/>
             </Button.Background>
         </Button>
-        <Button x:Name="music" Content="图片" HorizontalAlignment="Left" Margin="545,108,0,0" VerticalAlignment="Top" Height="117" Width="229" FontSize="24">
+        <Button x:Name="music" Content="音乐" HorizontalAlignment="Left" Margin="545,108,0,0" VerticalAlignment="Top" Height="117" Width="229" FontSize="24" Click="music_Click">
             <Button.Background>
                 <SolidColorBrush Color="#FF250F0F" Opacity="0.4"/>
             </Button.Background>
         </Button>
-        <Button x:Name="video" Content="视频" HorizontalAlignment="Left" Margin="545,367,0,0" VerticalAlignment="Top" Height="99" Width="229" FontSize="24">
+        <Button x:Name="video" Content="视频" HorizontalAlignment="Left" Margin="545,367,0,0" VerticalAlignment="Top" Height="99" Width="229" FontSize="24" Click="video_Click">
             <Button.Background>
                 <SolidColorBrush Color="#FF250F0F" Opacity="0.4"/>
             </Button.Background>
         </Button>
-        <Button x:Name="book" Content="电子书" HorizontalAlignment="Left" Margin="545,486,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.225,-0.289" Height="105" Width="229" FontSize="24">
+        <Button x:Name="book" Content="电子书" HorizontalAlignment="Left" Margin="545,486,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.225,-0.289" Height="105" Width="229" FontSize="24" Click="book_Click">
             <Button.Background>
                 <SolidColorBrush Color="#FF250F0F" Opacity="0.4"/>
             </Button.Background>

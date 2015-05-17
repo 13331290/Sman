@@ -5,12 +5,16 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
+using Windows.Storage.Pickers;
+using Windows.Storage.Streams;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // “空白页”项模板在 http://go.microsoft.com/fwlink/?LinkId=234238 上有介绍
@@ -30,6 +34,42 @@ namespace Sman
         private void back_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
+        }
+
+        private void music_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private async void picture_Click(object sender, RoutedEventArgs e)
+        {
+            WriteableBitmap writeAbleBitmap = new WriteableBitmap(200, 200);
+            FileOpenPicker picker = new FileOpenPicker();
+            picker.FileTypeFilter.Add(".png");
+            picker.FileTypeFilter.Add(".jpg");
+            picker.FileTypeFilter.Add(".jpeg");
+            picker.FileTypeFilter.Add(".bmp");
+            picker.SuggestedStartLocation = PickerLocationId.PicturesLibrary;
+
+            StorageFile file = await picker.PickSingleFileAsync();
+
+            if (file != null)
+            {
+                IRandomAccessStream stream = await file.OpenAsync(FileAccessMode.Read);
+                await writeAbleBitmap.SetSourceAsync(stream);
+                this.Frame.Navigate(typeof(CollectReasonPage), writeAbleBitmap);
+
+            }
+        }
+
+        private void video_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void book_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
