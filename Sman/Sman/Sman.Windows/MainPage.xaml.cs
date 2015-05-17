@@ -31,5 +31,10 @@ namespace Sman
         {
             this.Frame.Navigate(typeof(CollectPage));
         }
+
+        private void book_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(EbookPage));
+        }
     }
 }
