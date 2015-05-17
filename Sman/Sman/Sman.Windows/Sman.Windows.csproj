@@ -108,6 +108,7 @@
     <SDKReference Include="BehaviorsXamlSDKManaged, Version=12.0" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CollectInfo.cs" />
     <Compile Include="CollectPage.xaml.cs">
       <DependentUpon>CollectPage.xaml</DependentUpon>
     </Compile>
@@ -130,10 +131,12 @@
     <None Include="Sman.Windows_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\audio.png" />
     <Content Include="Assets\background.jpg" />
     <Content Include="Assets\book.jpg" />
     <Content Include="Assets\collect_bg.jpg" />
     <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\pdf.png" />
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />

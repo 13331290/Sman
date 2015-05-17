@@ -20,9 +20,10 @@
                 <SolidColorBrush Color="#FFF3EEEE" Opacity="0.2"/>
             </TextBox.Background>
         </TextBox>
-        <Button x:Name="ensure" Content="收藏" HorizontalAlignment="Left" Margin="1044,445,0,0" VerticalAlignment="Top" Height="56" Width="148" FontSize="16" Click="ensure_Click"/>
-        <Button x:Name="cancel" Content="取消" HorizontalAlignment="Left" Margin="1044,555,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.025,-0.237" Height="56" Width="148" FontSize="16" Click="cancel_Click"/>
+        <Button x:ConnectionId='1' x:Name="ensure" Content="收藏" HorizontalAlignment="Left" Margin="1044,445,0,0" VerticalAlignment="Top" Height="56" Width="148" FontSize="16"                     />
+        <Button x:ConnectionId='2' x:Name="cancel" Content="取消" HorizontalAlignment="Left" Margin="1044,555,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.025,-0.237" Height="56" Width="148" FontSize="16"                     />
         <TextBlock Name="filename" HorizontalAlignment="Left" Margin="146,540,0,0" TextWrapping="Wrap" Text="XXXX" VerticalAlignment="Top" Height="57" Width="221" FontSize="20" TextAlignment="Center" FontWeight="Bold" FontStyle="Italic"/>
 
     </Grid>
 </Page>
+

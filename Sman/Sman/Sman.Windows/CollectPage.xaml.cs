@@ -55,9 +55,8 @@ namespace Sman
 
             if (file != null)
             {
-                IRandomAccessStream stream = await file.OpenAsync(FileAccessMode.Read);
-                await writeAbleBitmap.SetSourceAsync(stream);
-                this.Frame.Navigate(typeof(CollectReasonPage), writeAbleBitmap);
+                CollectInfo collectInfo = new CollectInfo("picture", file);
+                this.Frame.Navigate(typeof(CollectReasonPage), collectInfo);
 
             }
         }

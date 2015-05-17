@@ -35,3 +35,16 @@ C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\obj\Debug\qualifi
 C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\bin\Debug\CollectReasonPage.xbf
+C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\bin\Debug\EbookPage.xbf
+C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\bin\Debug\Microsoft.Xaml.Interactions.dll
+C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\bin\Debug\Microsoft.Xaml.Interactivity.dll
+C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\obj\Debug\CollectReasonPage.g.i.cs
+C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\obj\Debug\CollectReasonPage.g.cs
+C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\obj\Debug\EbookPage.g.i.cs
+C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\obj\Debug\EbookPage.g.cs
+C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\obj\Debug\CollectReasonPage.xaml
+C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\obj\Debug\EbookPage.xaml
+C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\obj\Debug\CollectReasonPage.xbf
+C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\obj\Debug\EbookPage.xbf
+C:\Users\Administrator\Git\GitCode\Sman\Sman\Sman\Sman.Windows\obj\Debug\Sman.Windows.csproj.GenerateResource.Cache
